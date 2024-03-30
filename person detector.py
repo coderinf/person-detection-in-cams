@@ -22,8 +22,8 @@ img_count, breakcount = 0, 0
 def sendTelegram():
     path = "C:\\Users\\coder\\PycharmProjects\\PROJECT EXPO"  # Replace your path directory
     url = 'https://api.telegram.org/bot'
-    token = "5925692200:AAGiOqrvaAKAZOx0SW__Ypst6--kG62zUes"  # Replace Your Token Bot
-    chat_id = '-1001837443634'  # Replace Your Chat ID
+    token = ""  # Replace Your Token Bot
+    chat_id = ''  # Replace Your Chat ID
     caption = "People Detected!!! "
     cv2.imwrite(os.path.join(path, img_name), img)
     import telepot
